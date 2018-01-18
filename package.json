@@ -1,7 +1,7 @@
 {
-  "name": "sonic-reducer-todomvc",
+  "name": "react-zine-todomvc",
   "version": "0.0.1",
-  "description": "A zine + Sonic Reducer TodoMVC implementation",
+  "description": "A react-zine TodoMVC implementation",
   "dependencies": {
     "babel-preset-env": "^1.6.1",
     "classnames": "^2.2.5",
