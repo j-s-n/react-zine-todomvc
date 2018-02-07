@@ -38,6 +38,8 @@ export default class Store {
     };
 
     subscribe(todo, this.updateLocalStorage); // Update local storage whenever the todo is updated
+    // Note that we never explicitly unsubscribe, but there's no memory leak
+    // zine's use of WeakMap ensures that dropped todos get garbage collected along with their subscription lists
     return todo;
   }
 
